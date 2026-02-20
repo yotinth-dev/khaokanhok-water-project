@@ -2,148 +2,94 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
-<title>โครงการปรับปรุงเพิ่มประสิทธิภาพการเก็บกักน้ำ อ่างเก็บน้ำเขาคันหอก</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard โครงการอ่างเก็บน้ำเขาคันหอก</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-gray-100 text-gray-800">
 
 <!-- ===== Header ===== -->
-<header class="bg-blue-700 text-white text-center py-6">
-  <h1 class="text-xl font-bold">
-    โครงการปรับปรุงเพิ่มประสิทธิภาพการเก็บกักน้ำ<br>
-    อ่างเก็บน้ำเขาคันหอก พร้อมระบบส่งน้ำและอาคารประกอบ
+<header class="bg-blue-800 text-white text-center py-6 shadow-lg">
+  <h1 class="text-xl md:text-2xl font-bold">
+    Dashboard ความก้าวหน้าโครงการ<br>
+    อ่างเก็บน้ำเขาคันหอก
   </h1>
 </header>
 
-<!-- ===== Project Overview ===== -->
-<section class="bg-white max-w-6xl mx-auto mt-6 p-6 rounded shadow text-center">
-  <h2 class="text-lg font-bold mb-2">ภาพรวมโครงการ</h2>
-  <p class="mb-4">
-    โครงการเพื่อเพิ่มศักยภาพการเก็บกักน้ำและความมั่นคงด้านทรัพยากรน้ำในพื้นที่
-  </p>
-  <span class="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-1 rounded-full">
-    ● อยู่ระหว่างดำเนินการ
-  </span>
+<!-- ===== Summary Cards ===== -->
+<section class="max-w-6xl mx-auto mt-6 grid md:grid-cols-3 gap-6 px-4">
+
+  <div class="bg-white p-6 rounded shadow text-center">
+    <p class="text-gray-500">ความก้าวหน้ารวม</p>
+    <h2 class="text-3xl font-bold text-blue-700">58%</h2>
+  </div>
+
+  <div class="bg-white p-6 rounded shadow text-center">
+    <p class="text-gray-500">ระยะเวลาดำเนินการ</p>
+    <h2 class="text-xl font-semibold">ม.ค. 2569 - ธ.ค. 2569</h2>
+  </div>
+
+  <div class="bg-white p-6 rounded shadow text-center">
+    <p class="text-gray-500">สถานะ</p>
+    <span class="inline-block bg-green-100 text-green-700 px-4 py-1 rounded-full font-semibold">
+      อยู่ระหว่างดำเนินการ
+    </span>
+  </div>
+
 </section>
 
-<!-- ===== Documents Section ===== -->
+<!-- ===== Progress Section ===== -->
 <section class="max-w-6xl mx-auto mt-8 bg-white p-6 rounded shadow">
-  <h2 class="bg-yellow-300 text-center font-bold py-2 mb-4">
-    ด้านงานเอกสาร
+
+  <h2 class="text-lg font-bold mb-6 text-center">
+    ความก้าวหน้ารายกิจกรรม
   </h2>
 
-  <table class="w-full border border-gray-400 text-sm">
-    <thead class="bg-gray-200">
-      <tr>
-        <th class="border p-2">ลำดับที่</th>
-        <th class="border p-2">รายการงาน</th>
-        <th class="border p-2">ลิงก์</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="border p-2 text-center">1</td>
-        <td class="border p-2">ส่งเอกสารสัญญาให้ผู้ว่าลงนาม</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/1d5Ewh8V4Cu1I3lQusBCPIgqpP0IFNjrA" target="_blank">เปิดเอกสาร</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2 text-center">2</td>
-        <td class="border p-2">ได้ลำดับขั้นตอนของเอกสารแจ้งเข้างาน</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/file/d/1iysi71gzeP8gss8MobKHwavD1qEzWpLj/view" target="_blank">เปิดเอกสาร</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2 text-center">3</td>
-        <td class="border p-2">หนังสือผู้ควบคุมงานแจ้งเข้าปฏิบัติงาน</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/file/d/1_k27l2UX8eZ5AL437NOuP3KkSRaVLJ-A/view" target="_blank">เปิดเอกสาร</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2 text-center">4</td>
-        <td class="border p-2">ลงพื้นที่ประชุมชี้แจงงานก่อสร้าง</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/12quWmPWgSOzKj46ZCAOmq9SzjSGiiHze" target="_blank">เปิดเอกสาร</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2 text-center">5</td>
-        <td class="border p-2">แบบก่อสร้าง</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/18lqE8BdoYI2fh2jVjkVLJzX58Mjr95d2" target="_blank">เปิดเอกสาร</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2 text-center">6</td>
-        <td class="border p-2">เเผนปฏิบัติงาน</td>
-        <td class="border p-2 text-center">-</td>
-      </tr>
-      <tr>
-        <td class="border p-2 text-center">7</td>
-        <td class="border p-2">รายงานผลการดำเนินงานครั้งที่ 1</td>
-        <td class="border p-2 text-center">-</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+  <!-- งานถางป่า -->
+  <div class="mb-6">
+    <div class="flex justify-between mb-1">
+      <span>งานถางป่าและขุดตอ</span>
+      <span class="font-semibold">100%</span>
+    </div>
+    <div class="w-full bg-gray-200 rounded-full h-4">
+      <div class="bg-green-600 h-4 rounded-full" style="width: 100%"></div>
+    </div>
+  </div>
 
-<!-- ===== Site Photos ===== -->
-<section class="max-w-6xl mx-auto mt-8 bg-white p-6 rounded shadow">
-  <h2 class="bg-yellow-300 text-center font-bold py-2 mb-4">
-    รูปหน้างาน
-  </h2>
+  <!-- งานรื้อหิน -->
+  <div class="mb-6">
+    <div class="flex justify-between mb-1">
+      <span>งานรื้อหินเตรียมพื้นที่</span>
+      <span class="font-semibold">70%</span>
+    </div>
+    <div class="w-full bg-gray-200 rounded-full h-4">
+      <div class="bg-blue-600 h-4 rounded-full" style="width: 70%"></div>
+    </div>
+  </div>
 
-  <table class="w-full border border-gray-400 text-sm">
-    <thead class="bg-gray-200">
-      <tr>
-        <th class="border p-2">กิจกรรมงาน</th>
-        <th class="border p-2">ลิงก์</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="border p-2">รูปก่อนดำเนินการ</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/1dCun1QQMYR67-exqxMENTZW1_Cqa4Sap" target="_blank">เปิดรูป</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2">งานสำรวจระดับ</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/1ez8GZtH0f3V6ZVEL7ESYkgvKWsWckUMV" target="_blank">เปิดรูป</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2">งานถางป่าและขุดตอ</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/1ubOrdsb7X_lkRoSDE7h04yGr0fg27G2Q" target="_blank">เปิดรูป</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="border p-2">งานรื้อถอนอาคารระบายน้ำล้น</td>
-        <td class="border p-2 text-blue-600">
-          <a href="https://drive.google.com/drive/folders/1ZEh4Sny060PLYvPlkOQ8vZT37Ek_fjIL" target="_blank">เปิดรูป</a>
-        </td>
-      </tr>
-      <tr>
-  <td class="border p-2">งานทำนบดินชั่วคราว</td>
-  <td class="border p-2 text-blue-600">
-    <a href="https://drive.google.com/drive/folders/1xvhDMX1R38gPG4JhSpRtSQHDW8Mz_6Nj?usp=drive_link" target="_blank">เปิดรูป</a>
-  </td>
-</tr>
-</tr>
-  <td class="border p-2">งานก่อสร้างอาคารระบายน้ำล้น</td>
-  <td class="border p-2 text-blue-600">
-      <a href="https://drive.google.com/drive/folders/1ims_3Lbxj44OsQlIryzadayoQTln5Yg1?usp=drive_link" target="_blank">เปิดรูป</a>
-  </td>
-  </tr>
-  </tr>
-    </tbody>
-  </table>
+  <!-- งานรื้อถอน -->
+  <div class="mb-6">
+    <div class="flex justify-between mb-1">
+      <span>งานรื้อถอนอาคารระบายน้ำล้น</span>
+      <span class="font-semibold">90%</span>
+    </div>
+    <div class="w-full bg-gray-200 rounded-full h-4">
+      <div class="bg-yellow-500 h-4 rounded-full" style="width: 90%"></div>
+    </div>
+  </div>
+
+  <!-- งานก่อสร้าง -->
+  <div class="mb-6">
+    <div class="flex justify-between mb-1">
+      <span>งานก่อสร้างอาคารระบายน้ำล้น</span>
+      <span class="font-semibold">40%</span>
+    </div>
+    <div class="w-full bg-gray-200 rounded-full h-4">
+      <div class="bg-purple-600 h-4 rounded-full" style="width: 40%"></div>
+    </div>
+  </div>
+
 </section>
 
 <!-- ===== Footer ===== -->
